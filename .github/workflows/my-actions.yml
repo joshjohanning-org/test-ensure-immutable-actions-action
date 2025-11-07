@@ -20,5 +20,5 @@ jobs:
       - uses: joshjohanning/nodejs-actions-starter-template@main
       - uses: joshjohanning/text-to-emoji-action@main
       - uses: joshjohanning/npm-version-check-action@main
-      - uses: joshjohanning/github-actions-log-warning-checker@main
-      - uses: joshjohanning/github-actions-for-packages@main
+      - uses: joshjohanning/publish-github-action@main
+      - uses: joshjohanning/generate-org-repos-sbom-action@main
