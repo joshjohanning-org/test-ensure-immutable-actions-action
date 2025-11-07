@@ -7,18 +7,18 @@ jobs:
   my-actions:
     runs-on: ubuntu-latest
     steps:
-      - uses: joshjohanning/approveops@main
-      - uses: joshjohanning/azdo_commit_message_validator@main
-      - uses: joshjohanning/bulk-github-repo-sync-action@main
-      - uses: joshjohanning/enforce-github-pat-expiration@main
-      - uses: joshjohanning/twistlock-results-json-to-markdown-action@main
-      - uses: joshjohanning/actions-ref-linter@main
-      - uses: joshjohanning/bulk-github-repo-settings-sync-action@main
-      - uses: joshjohanning/organization-readme-badge-generator@main
-      - uses: joshjohanning/revoke-github-ssh-key-sso-authorization@main
-      - uses: joshjohanning/ensure-immutable-actions@main
-      - uses: joshjohanning/nodejs-actions-starter-template@main
-      - uses: joshjohanning/text-to-emoji-action@main
-      - uses: joshjohanning/npm-version-check-action@main
+      - uses: joshjohanning/approveops@v1.0.0
+      - uses: joshjohanning/azdo_commit_message_validator@v1.0.0
+      - uses: joshjohanning/bulk-github-repo-sync-action@v1.0.0
+      - uses: joshjohanning/enforce-github-pat-expiration@v1.0.0
+      - uses: joshjohanning/twistlock-results-json-to-markdown-action@v1.0.0
+      - uses: joshjohanning/actions-ref-linter@v1.0.0
+      - uses: joshjohanning/bulk-github-repo-settings-sync-action@v1.0.0
+      - uses: joshjohanning/organization-readme-badge-generator@v1.0.0
+      - uses: joshjohanning/revoke-github-ssh-key-sso-authorization@v1.0.0
+      - uses: joshjohanning/ensure-immutable-actions@v1.0.0
+      - uses: joshjohanning/nodejs-actions-starter-template@v1.0.0
+      - uses: joshjohanning/text-to-emoji-action@v1.0.0
+      - uses: joshjohanning/npm-version-check-action@v1.0.0
       - uses: joshjohanning/publish-github-action@v2.2.0
-      - uses: joshjohanning/generate-org-repos-sbom-action@main
+      - uses: joshjohanning/generate-org-repos-sbom-action@v1.0.0
