@@ -1,0 +1,24 @@
+name: My Actions
+
+on:
+  workflow_dispatch:
+
+jobs:
+  my-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: joshjohanning/approveops@main
+      - uses: joshjohanning/azdo_commit_message_validator@main
+      - uses: joshjohanning/bulk-github-repo-sync-action@main
+      - uses: joshjohanning/enforce-github-pat-expiration@main
+      - uses: joshjohanning/twistlock-results-json-to-markdown-action@main
+      - uses: joshjohanning/actions-ref-linter@main
+      - uses: joshjohanning/bulk-github-repo-settings-sync-action@main
+      - uses: joshjohanning/organization-readme-badge-generator@main
+      - uses: joshjohanning/revoke-github-ssh-key-sso-authorization@main
+      - uses: joshjohanning/ensure-immutable-actions@main
+      - uses: joshjohanning/nodejs-actions-starter-template@main
+      - uses: joshjohanning/text-to-emoji-action@main
+      - uses: joshjohanning/npm-version-check-action@main
+      - uses: joshjohanning/github-actions-log-warning-checker@main
+      - uses: joshjohanning/github-actions-for-packages@main
