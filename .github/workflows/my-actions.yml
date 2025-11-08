@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: joshjohanning/approveops@v1.0.0
       - uses: joshjohanning/azdo_commit_message_validator@v3.0.1
-      - uses: joshjohanning/bulk-github-repo-sync-action@v1.0.0
+      - uses: joshjohanning/bulk-github-repo-sync-action@v1.0.6
       - uses: joshjohanning/enforce-github-pat-expiration@v1.0.1
       - uses: joshjohanning/twistlock-results-json-to-markdown-action@v1.0.5
       - uses: joshjohanning/actions-ref-linter@v1.0.0
