@@ -22,3 +22,8 @@ jobs:
       - uses: joshjohanning/npm-version-check-action@v1.0.9
       - uses: joshjohanning/publish-github-action@v2.2.0
       - uses: joshjohanning/generate-org-repos-sbom-action@v1.0.0
+
+  my-actions-as-shas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: joshjohanning/nodejs-actions-starter-template@4e6048e65c6d587678a6703a13d116cc3fec0776
