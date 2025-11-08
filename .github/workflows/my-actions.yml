@@ -16,7 +16,7 @@ jobs:
       - uses: joshjohanning/bulk-github-repo-settings-sync-action@v1.1.3
       - uses: joshjohanning/organization-readme-badge-generator@v1.0.0
       - uses: joshjohanning/revoke-github-ssh-key-sso-authorization@v1.0.0
-      - uses: joshjohanning/ensure-immutable-actions@v1.0.0
+      - uses: joshjohanning/ensure-immutable-actions@v1.0.1
       - uses: joshjohanning/nodejs-actions-starter-template@v1.0.0
       - uses: joshjohanning/text-to-emoji-action@v1.0.0
       - uses: joshjohanning/npm-version-check-action@v1.0.0
