@@ -7,7 +7,7 @@ jobs:
   my-actions:
     runs-on: ubuntu-latest
     steps:
-      - uses: joshjohanning/approveops@v3.0.2
+      - uses: joshjohanning/approveops@v3.0.3
       - uses: joshjohanning/azdo_commit_message_validator@v3.0.1
       - uses: joshjohanning/bulk-github-repo-sync-action@v1.0.6
       - uses: joshjohanning/enforce-github-pat-expiration@v1.0.1
