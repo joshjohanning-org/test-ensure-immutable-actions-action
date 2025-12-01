@@ -13,4 +13,4 @@ jobs:
       - uses: actions/checkout@v5
 
       - name: Ensure immutable actions
-        uses: joshjohanning/ensure-immutable-actions@v1.0.1
+        uses: joshjohanning/ensure-immutable-actions@v1.0.3
