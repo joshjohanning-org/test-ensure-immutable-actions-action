@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: joshjohanning/approveops@v3.0.4
-      - uses: joshjohanning/azdo_commit_message_validator@v3.0.2
-      - uses: joshjohanning/bulk-github-repo-sync-action@v1.0.8
+      - uses: joshjohanning/azdo_commit_message_validator@v3.0.4
+      - uses: joshjohanning/bulk-github-repo-sync-action@v1.0.9
       - uses: joshjohanning/enforce-github-pat-expiration@v1.0.1
       - uses: joshjohanning/twistlock-results-json-to-markdown-action@v1.0.6
       - uses: joshjohanning/actions-ref-linter@v0.0.1
-      - uses: joshjohanning/bulk-github-repo-settings-sync-action@v1.4.2
+      - uses: joshjohanning/bulk-github-repo-settings-sync-action@v1.5.0
       - uses: joshjohanning/organization-readme-badge-generator@v1.0.5
       - uses: joshjohanning/revoke-github-ssh-key-sso-authorization@v1.0.0
       - uses: joshjohanning/ensure-immutable-actions@v1.0.4
