@@ -16,3 +16,5 @@ jobs:
 
       - name: Ensure immutable actions
         uses: joshjohanning/ensure-immutable-actions@2.1.0
+        with:
+          include-first-party: true
