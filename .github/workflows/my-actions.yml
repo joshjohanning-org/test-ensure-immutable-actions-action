@@ -9,23 +9,23 @@ jobs:
   my-actions:
     runs-on: ubuntu-latest
     steps:
-      - uses: joshjohanning/approveops@v3.0.4
-      - uses: joshjohanning/azdo_commit_message_validator@v3.0.8
-      - uses: joshjohanning/bulk-github-repo-sync-action@v1.0.9
+      - uses: joshjohanning/approveops@v4.0.2
+      - uses: joshjohanning/azdo_commit_message_validator@v4.1.5
+      - uses: joshjohanning/bulk-github-repo-sync-action@v2.1.1
       - uses: joshjohanning/enforce-github-pat-expiration@v1.0.1
-      - uses: joshjohanning/twistlock-results-json-to-markdown-action@v1.0.6
+      - uses: joshjohanning/twistlock-results-json-to-markdown-action@v2.0.1
       - uses: joshjohanning/actions-ref-linter@v0.0.1
-      - uses: joshjohanning/bulk-github-repo-settings-sync-action@v1.7.0
-      - uses: joshjohanning/organization-readme-badge-generator@v1.0.5
+      - uses: joshjohanning/bulk-github-repo-settings-sync-action@v2.10.1
+      - uses: joshjohanning/organization-readme-badge-generator@v2.0.2
       - uses: joshjohanning/revoke-github-ssh-key-sso-authorization@v1.0.0
-      - uses: joshjohanning/ensure-immutable-actions@v1.0.4
-      - uses: joshjohanning/nodejs-actions-starter-template@v1.0.5
+      - uses: joshjohanning/ensure-immutable-actions@v2.6.1
+      - uses: joshjohanning/nodejs-actions-starter-template@v2.0.3
       - uses: joshjohanning/text-to-emoji-action@v1.0.0
-      - uses: joshjohanning/npm-version-check-action@v1.0.10
-      - uses: joshjohanning/publish-github-action@v2.3.0
+      - uses: joshjohanning/npm-version-check-action@v2.1.7
+      - uses: joshjohanning/publish-github-action@v3.1.7
       - uses: joshjohanning/generate-org-repos-sbom-action@v1.0.0
 
   my-actions-as-shas:
     runs-on: ubuntu-latest
     steps:
-      - uses: joshjohanning/nodejs-actions-starter-template@4e6048e65c6d587678a6703a13d116cc3fec0776
+      - uses: joshjohanning/nodejs-actions-starter-template@3e0b0a6112329d056f0956cde3a80ec8393db6de

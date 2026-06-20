@@ -12,7 +12,7 @@ jobs:
   check-immutable:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
       - name: Ensure immutable actions
-        uses: joshjohanning/ensure-immutable-actions@v2.1.0
+        uses: joshjohanning/ensure-immutable-actions@v2.6.1
